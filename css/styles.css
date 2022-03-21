@@ -1,0 +1,192 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h3 {
+font-weight: 900;
+line-height: 1.5;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #0F2C67;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+/*navigation bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Title section */
+
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+/*download buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-image {
+  width: 75%;
+  position: relative;
+  left: 25%;
+}
+
+/* features section */
+
+
+.feature-title {
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.icon {
+  color: #CD1818;
+  font-size: 60px;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #F3950D;
+  transition: .2s;
+}
+
+/* testimonials */
+
+#testimonials {
+  background-color: #CD1818;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image1 {
+  width: 14.9%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-image2 {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #CD1818;
+  padding-bottom: 3%
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Call-To-Action*/
+
+#cta {
+  background-color: #CD1818;
+}
+
+
+#footer {
+  background-color: #fff;
+}
+
+.social-brands {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1160px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+  }
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
